@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+        <div class="container">
+        <div class="color">   
+        <div class="title">Calculadora</div>
+        </div> 
+
+        <div class="calculator">
+            <input type="number" id="input1" placeholder="Digite o primeiro número">
+            <input type="number" id="input2" placeholder="Digite o segundo número">
+            <br>
+            <button onclick="calculate('+')">+</button>
+            <button onclick="calculate('-')">-</button>
+            <button onclick="calculate('*')">*</button>
+            <button onclick="calculate('/')">/</button>
+            <br>
+            <input type="number" id="display" readonly>  
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>
